@@ -1,0 +1,79 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    max-width: 1440px;
+    font-family: overpass;
+}
+
+.container {
+    width: 400px;
+    height: 350px;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    border-radius: 20px;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    background-color:hsl(216, 12%, 54%);
+    padding: 5px;
+    margin: 20px 0 20px 20px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-weight: 700px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: overpass, sans-serif;
+}
+
+p {
+    font-family: overpass, sans-serif;
+    font-weight: 400px;
+    color: #ffff;
+    margin: 20px 0 20px 20px;
+}
+
+.number {
+    margin: 0 0 0 20px;
+}
+
+.numb {
+    height: 40px;
+    width: 40px;
+    padding: 15px;
+    border-radius:50%;
+    border: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.submit {
+    margin: 30px 0 0 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+}
+
+button.numb:hover {
+    background-color: hsl(217, 12%, 63%)
+}
+
+button.submit:hover {
+    background-color: #ffff;
+    color:  hsl(25, 97%, 53%);
+}
